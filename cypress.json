@@ -1,0 +1,20 @@
+{
+    "baseUrl": "http://localhost",
+    "numTestsKeptInMemory": 1,
+    "video": false,
+    "env": {
+        "TAGS": "not @ignore"
+    },
+    "chromeWebSecurity": false,
+    "ignoreTestFiles": [],
+    "testFiles": "**/*.{feature,features}",
+    "retries": {
+        "runMode": 2,
+        "openMode": 0
+    },
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "results/cypress-report.xml",
+        "toConsole": true
+    }
+}
